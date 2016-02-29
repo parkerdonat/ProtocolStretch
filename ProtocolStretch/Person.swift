@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Person {
+class Person: PersistentType {
     let firstName: String
     let lastName: String
     let age: Int
